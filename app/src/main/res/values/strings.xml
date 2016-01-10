@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">EnRuta</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- String Main -->
+    <string name="nombre">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="inicio">Iniciar Sesion</string>
+    <string name="registrarse">Registrarse</string>
+
+    <!-- String Registro -->
+    <string name="welcome">Bienvenido a EnRuta</string>
+
+    <!-- String Facebook -->
+    <string name="ID_APP">154114517</string>
+    <string name="facebook">Facebook</string>
+
+    <!-- String Google -->
+    <string name="server_client_id">772392806484-g2ah8ddiedu6bo3jj2nnjjldu3574lkv.apps.googleusercontent.com</string>
+    <string name="btnSignin">Sign In</string>
+    <string name="btnSignout">Sign Out</string>
+    <string name="signed_out">^-^</string>
+    <string name="signed_out2">...</string>
+    <string name="loading">Loading</string>
+    <string name="signed_in_fmt">Usuario: %s</string>
+    <string name="signed_in_fmt2">Correo: %s</string>
+
+    <!--String EnRuta-->
+    <string-array name="Menu">
+        <item>Sistema Metro</item>
+        <item>Rutas de Buses</item>
+        <item>Encicla</item>
+        <item>Noticias</item>
+        <item>Acerca de ...</item>
+    </string-array>
+
+</resources>

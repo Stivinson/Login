@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/seagreen"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500sp"
+        android:src="@drawable/logoenruta"/>
+
+    <ProgressBar
+        android:layout_width="300sp"
+        android:layout_height="7sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/black"
+        android:progress="150"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/progressbar"/>
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:background="@color/seagreen"
+    tools:context="com.stivinsonmartinez.login.MainActivity">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="EnRuta"
+                        android:textSize="40dp"
+                        android:textColor="@color/cadetblue"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="1dp"
+                        android:src="@drawable/logoenruta" />
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/et_name"
+                        android:layout_marginTop="7dp"
+                        android:hint="@string/nombre"/>
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:ems="10"
+                        android:id="@+id/et_password"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:hint="@string/password"/>
+
+                  <!--  <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/et_email"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"/>-->
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inicio"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:onClick="start"/>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/registrarse"
+                            android:id="@+id/b_registro"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/black"
+                            android:onClick="registro"/>
+
+                    <com.google.android.gms.common.SignInButton
+                        android:id="@+id/id_sign_in_button"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </com.google.android.gms.common.SignInButton>
+
+                </LinearLayout>
+</LinearLayout>
